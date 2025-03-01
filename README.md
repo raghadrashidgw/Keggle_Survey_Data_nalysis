@@ -1,4 +1,4 @@
-[](https://i.pinimg.com/736x/a3/8e/ea/a38eea1aa87eae6fe4ce53188a1602b3.jpg)
+![](https://i.pinimg.com/736x/a3/8e/ea/a38eea1aa87eae6fe4ce53188a1602b3.jpg)
 
 # Insights from the Kaggle Survey: Trends in Machine Learning Framework Usage
 
