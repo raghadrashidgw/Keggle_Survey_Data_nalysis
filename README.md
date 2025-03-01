@@ -1,6 +1,6 @@
 ![](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
 
-# Project Title
+# Insights from the Kaggle Survey: Trends in Machine Learning Framework Usage
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pragyy/datascience-readme-template?include_prereleases)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pragyy/datascience-readme-template)
@@ -19,80 +19,42 @@ I usually include images that are relevant to my project, and you can easily fin
 The colorful tiles beneath the title are known as badges, and they improve readability by providing quick insights into the github repository. I use [Shields IO](https://shields.io/). Depending on the project you can use the ones that are relevant. 
 
 # Project Overview
+This project analyzes data from the Kaggle Machine Learning and Data Science Survey to uncover trends in machine learning framework and programming language usage. The goal is to identify which frameworks and languages are most popular among different experience levels and how their adoption varies. 
+The objectives:
+1. Aggregating and visualizing both framework and programming language usage by job titles and experience level.
+2. Identifying trends in framework and language preferences among beginners, intermediate users, and experts.
+3. Generating insights to help data scientists, researchers, and organizations understand the evolving landscape of ML tools and programming languages.
+4. The findings will be presented using data visualizations such as heatmaps, bar charts, and trend graphs for clearer interpretation.
 
-In this section you should provide a brief overview of the project, what it is about, and what it aims to achieve. This will help readers quickly understand what the project is all about.
-
-# Installation and Setup
-
-In this section, provide detailed instructions on how to set up the project on a local machine. This includes any necessary dependencies, software requirements, and installation steps. Make sure to include clear and concise instructions so that others can easily replicate your setup.
-
-I like to structure it as below - 
-## Codes and Resources Used
-In this section I give user the necessary information about the software requirements.
-- **Editor Used:**  Informing the user of the editor used to produce the project.
-- **Python Version:** Informing the user of the version of python used for this project. If you are using some other language such as R, you can mention that as well.
-
-## Python Packages Used
-In this section, I include all the necessary dependencies needed to reproduce the project, so that the reader can install them before replicating the project. I categorize the long list of packages used as - 
-- **General Purpose:** General purpose packages like `urllib, os, request`, and many more.
-- **Data Manipulation:** Packages used for handling and importing dataset such as `pandas, numpy` and others.
-- **Data Visualization:** Include packages which were used to plot graphs in the analysis or for understanding the ML modelling such as `seaborn, matplotlib` and others.
-- **Machine Learning:** This includes packages that were used to generate the ML model such as `scikit, tensorflow`, etc.
-
-The level of granularity you want to provide for the above list is entirely up to you. You can also add a few more levels, such as those for statistical analysis or data preparation, or you can simply incorporate them into the above list as is.
 
 # Data
 
-The very crucial part of any data science project is dataset. Therefore list all the data sources used in the project, including links to the original data, descriptions of the data, and any pre-processing steps that were taken.
-
-I structure this as follows - 
-
 ## Source Data
-In this section, I list all of the data that was used, along with the source link and a few lines that describe each data. You can also explain each of the data attributes in greater detail if you wish.
+https://www.kaggle.com/c/kaggle-survey-2021/data
 
-## Data Acquisition
-Data collection is not always as simple as downloading from Kaggle or any open source website; it can also be gathered through API calls or online scraping. So you can elaborate on this step in this section so that the reader can obtain the dataset by following your instructions.
 
 ## Data Preprocessing
-Acquired data is not always squeaky clean, so preprocessing them are an integral part of any data analysis. In this section you can talk about the same.
+The dataset consists of responses from the 2021 Kaggle Machine Learning & Data Science Survey, where each question is spread across multiple columns. For example, the question "What programming languages do you use on a regular basis?" is divided into up to eight columns, with each column representing a specific language. If a respondent selected Python, it appears in one column while the others remain empty, and the same applies to SQL, R, Java, and other languages.
 
-# Code structure
-Explain the code structure and how it is organized, including any significant files and their purposes. This will help others understand how to navigate your project and find specific components. 
 
-Here is the basic suggested skeleton for your data science repo (you can structure your repository as needed ):
 
-```bash
-├── data
-│   ├── data1.csv
-│   ├── data2.csv
-│   ├── cleanedData
-│   │   ├── cleaneddata1.csv
-|   |   └── cleaneddata2.csv
-├── data_acquisition.py
-├── data_preprocessing.ipynb
-├── data_analysis.ipynb
-├── data_modelling.ipynb
-├── Img
-│   ├── img1.png
-│   ├── Headerheader.jpg
-├── LICENSE
-├── README.md
-└── .gitignore
-```
 
 # Results and evaluation
-Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
-
+  ## Programming Language Preferences
+ 1. Python dominated as the most popular language across all experience levels.
+ 2. SQL was commonly used alongside Python, highlighting its importance in data handling.
+ 3. C++ is also used mostly by Students.
+  ## Machine Learning Framework Usage
+  1. TensorFlow was the second most used framework, primarily adopted by users with 1 to 3 years of experience.
+  2. Keras, while also popular, had fewer users compared to TensorFlow and was mostly used by those with less than 3 years of experience.
+  3. Scikit-learn remained one of the most widely used frameworks across all experience levels.
+ 
 # Future work
-Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
+In the future, this project could be expanded by adding more data from other surveys or reports to compare trends over time. We could also analyze people's opinions on the frameworks and languages they use. It would be interesting to look deeper into how well popular frameworks perform based on user experience. Also, analysis on specific job titles or exploring a specific subcategory in detail can help in coming up with useful insights. If anything we learned from this analysis, it's that we could have narrowed down the analysis to some categories since our audience is interested in specific parts of this survey.
+
+# How to run the codes
+simply copy and paste the code and run it. You can find the notebook attatched and there are comments on which approaches we used and why those approaches were used.
 
 # Acknowledgments/References
-Acknowledge any contributors, data sources, or other relevant parties who have contributed to the project. This is an excellent way to show your appreciation for those who have helped you along the way.
+I would like to express my sincere gratitude to my instructors for their invaluable guidance and support throughout this project. Their expertise and encouragement have greatly enhanced my learning experience. I would also like to thank my project partner for their collaboration, hard work, and dedication. Working together has been a rewarding experience, and I truly appreciate their contributions to making this project successful. Thank you all for your continuous support and for helping me grow professionally and academically.
 
-For instance, I am referencing the image that I used for my readme header - 
-- Image by [rashadashurov](https://www.vectorstock.com/royalty-free-vector/data-science-cartoon-template-with-flat-elements-vector-27984292)
-
-# License
-Specify the license under which your code is released. Moreover, provide the licenses associated with the dataset you are using. This is important for others to know if they want to use or contribute to your project. 
-
-For this github repository, the License used is [MIT License](https://opensource.org/license/mit/).
