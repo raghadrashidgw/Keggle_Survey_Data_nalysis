@@ -1,4 +1,4 @@
-![](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
+![](https://cdn.dribbble.com/userupload/21656162/file/original-b2caa8e219bb54b29d2a4eff8ccd2a82.gif)
 
 # Insights from the Kaggle Survey: Trends in Machine Learning Framework Usage
 
