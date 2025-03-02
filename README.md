@@ -9,13 +9,6 @@
 ![contributors](https://img.shields.io/github/contributors/pragyy/datascience-readme-template) 
 ![codesize](https://img.shields.io/github/languages/code-size/pragyy/datascience-readme-template) 
 
-> A guide to writing an amazing readme for your data science project.
-
-The project title should be concise and self-explanatory so that the user can easily remember your project.
-
-Add a cover banner to the top of your Readme to catch the attention of your readers.
-I usually include images that are relevant to my project, and you can easily find any image for free online without worrying about copyright issues. However, if the work is not free, make sure to credit the proper owners in the references/acknowledgement section.
-
 
 # Project Overview
 This project analyzes data from the Kaggle Machine Learning and Data Science Survey to uncover trends in machine learning framework and programming language usage. The goal is to identify which frameworks and languages are most popular among different experience levels and how their adoption varies. 
