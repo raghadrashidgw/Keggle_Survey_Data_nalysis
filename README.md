@@ -16,7 +16,6 @@ The project title should be concise and self-explanatory so that the user can ea
 Add a cover banner to the top of your Readme to catch the attention of your readers.
 I usually include images that are relevant to my project, and you can easily find any image for free online without worrying about copyright issues. However, if the work is not free, make sure to credit the proper owners in the references/acknowledgement section.
 
-The colorful tiles beneath the title are known as badges, and they improve readability by providing quick insights into the github repository. I use [Shields IO](https://shields.io/). Depending on the project you can use the ones that are relevant. 
 
 # Project Overview
 This project analyzes data from the Kaggle Machine Learning and Data Science Survey to uncover trends in machine learning framework and programming language usage. The goal is to identify which frameworks and languages are most popular among different experience levels and how their adoption varies. 
@@ -53,8 +52,7 @@ The dataset consists of responses from the 2021 Kaggle Machine Learning & Data S
 In the future, this project could be expanded by adding more data from other surveys or reports to compare trends over time. We could also analyze people's opinions on the frameworks and languages they use. It would be interesting to look deeper into how well popular frameworks perform based on user experience. Also, analysis on specific job titles or exploring a specific subcategory in detail can help in coming up with useful insights. If anything we learned from this analysis, it's that we could have narrowed down the analysis to some categories since our audience is interested in specific parts of this survey.
 
 # How to run the codes
-simply copy and paste the code and run it. You can find the notebook attatched and there are comments on which approaches we used and why those approaches were used.
+The code are losted as cells with each cell has a corresponding output. You can find the notebook attatched and there are comments on which approaches we used and why those approaches were used.
 
 # Acknowledgments/References
-I would like to express my sincere gratitude to my instructors for their invaluable guidance and support throughout this project. Their expertise and encouragement have greatly enhanced my learning experience. I would also like to thank my project partner for their collaboration, hard work, and dedication. Working together has been a rewarding experience, and I truly appreciate their contributions to making this project successful. Thank you all for your continuous support and for helping me grow professionally and academically.
-
+I express my sincere gratitude to my instructors, Mr. Juan Orozco and Mr Ali El-Kassas for their dedication in this course, their invaluable guidance and support throughout this project. A special thanks to Mr Juan for heping us with a suggestion to handle the EDA part! and Mr Ali for his fruitful feedback. Also, I would also like to thank my project partner for their collaboration, hard work. Working together has been a rewarding experience. 
