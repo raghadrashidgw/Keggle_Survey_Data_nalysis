@@ -1,6 +1,6 @@
 ![](https://i.pinimg.com/736x/0f/cd/3c/0fcd3ced443b7f1e70cc135e587fc0e0.jpg)
 
-# Insights from the Kaggle Survey: Trends in Machine Learning Framework Usage
+# Insights from the Kaggle Survey: Trends in Data science, machine learning and related data feilds
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pragyy/datascience-readme-template?include_prereleases)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pragyy/datascience-readme-template)
