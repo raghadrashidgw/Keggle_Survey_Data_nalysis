@@ -42,7 +42,10 @@ The dataset consists of responses from the 2021 Kaggle Machine Learning & Data S
   3. Scikit-learn remained one of the most widely used frameworks across all experience levels.
  
 # Future work
-In the future, this project could be expanded by adding more data from other surveys or reports to compare trends over time. We could also analyze people's opinions on the frameworks and languages they use. It would be interesting to look deeper into how well popular frameworks perform based on user experience. Also, analysis on specific job titles or exploring a specific subcategory in detail can help in coming up with useful insights. If anything we learned from this analysis, it's that we could have narrowed down the analysis to some categories since our audience is interested in specific parts of this survey.
+In the future, this project could be enhanced by:
+• adding more data from other surveys or reports to compare trends over time.
+• analyzing people's opinions on the frameworks and languages they use.
+• analysis on specific job titles or exploring a specific problem statment in detail can help in coming up with better insights. 
 
 # How to run the codes
 The code are listed as cells with each cell has a corresponding output. You can find the notebook attatched and there are comments on which approaches we used and why those approaches were used.
