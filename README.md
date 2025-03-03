@@ -43,9 +43,9 @@ The dataset consists of responses from the 2021 Kaggle Machine Learning & Data S
  
 # Future work
 In the future, this project could be enhanced by:
-• adding more data from other surveys or reports to compare trends over time.
-• analyzing people's opinions on the frameworks and languages they use.
-• analysis on specific job titles or exploring a specific problem statment in detail can help in coming up with better insights. 
+1. adding more data from other surveys or reports to compare trends over time.
+2.  analyzing people's opinions on the frameworks and languages they use.
+3.  analysis on specific job titles or exploring a specific problem statment in detail can help in coming up with better insights. 
 
 # How to run the codes
 The code are listed as cells with each cell has a corresponding output. You can find the notebook attatched and there are comments on which approaches we used and why those approaches were used.
